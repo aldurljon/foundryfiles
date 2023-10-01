@@ -1,0 +1,42 @@
+{
+  "id": "genesys-core-packs",
+  "title": "genesys core packs",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "genesys",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "genesys-criticalinjuries",
+      "label": "critical injuries",
+      "path": "packs/genesys-criticalinjuries",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "genesys"
+    },
+    {
+      "name": "genesys-qualities",
+      "label": "qualities",
+      "path": "packs/genesys-qualities",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "genesys"
+    }
+  ]
+}
